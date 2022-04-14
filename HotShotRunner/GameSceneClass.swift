@@ -129,18 +129,14 @@ class GameSceneClass: SKScene , SKPhysicsContactDelegate{
     
     func initializeBanner() {
          //Create a banner ad and add it to the view hierarchy.
-        //bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
-       // bannerView.adUnitID = "ca-app-pub-3872909569931273/2913364344"
-        //bannerView.rootViewController = gameView.self
-        
+    
        // view!.addSubview(bannerView)
     }
     
     
     func loadRequest() {
        //  let request = GADRequest()
-      //      request.testDevices = [kGADSimulatorID,kGADAdSizeSmartBannerPortrait]
-         //   bannerView.load(request)
+   
     }
     
     ////Difficulty loader.
